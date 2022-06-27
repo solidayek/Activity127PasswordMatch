@@ -1,0 +1,28 @@
+Create a program that asks the user for their username and password. Complete the following methods:
+
+    matchingPasswords() - use the user provided second password and check to see if it exactly matches the first password. return true or false
+
+    compareSecretPassword() - returns an integer value comparing the first user provided password and the secret password
+
+    usernameMatch() - returns whether the provided username matches the secret password regardless of capitalization
+    
+    toString() - returns a String represenation of the object - check Sample output
+
+
+Sample Output:
+ 
+
+Enter your username:
+ Alex
+Enter your password:
+ sunshien
+Enter your password again:
+ sunshine
+
+The two passwords matched: false
+How far away you are from the secret password: 9
+The username matched: true
+Secret Username: alex 
+Your Username: Alex
+Secret Password: sunshine 
+Your Password: sunshien
